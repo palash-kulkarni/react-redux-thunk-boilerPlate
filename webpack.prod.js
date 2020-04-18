@@ -8,7 +8,7 @@ module.exports = merge(common, {
     devtool: 'source-map',   
     module: {
         rules: [{
-            test: /\.scss$/,
+            test: /\.scss|\.min\.css$/,
             use: [
                 MiniCssExtractPlugin.loader,
                 "css-loader", 

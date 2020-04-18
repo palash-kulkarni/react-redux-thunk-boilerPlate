@@ -9,9 +9,9 @@
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [
-    "StarterKit"
+    "React Redux Starter Kit"
   ],
-  "author": "Bitupon Chetia",
+  "author": "Palash Kulkarni",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.13.1",
