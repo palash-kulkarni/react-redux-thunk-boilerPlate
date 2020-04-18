@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { fetchBlogsIfNeeded } from '../actions'
 import { Route } from 'react-router-dom'
 import Blogs from '../components/blogs'
+import BlogDetails from '../components/blogDetails'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../sass/main.scss';
 
@@ -40,6 +41,7 @@ class AsyncApp extends Component {
                 </div>
               </div>
             )}/>
+            <Route path="/blogs/:id" render={(props) => <BlogDetails {...props} />} />
           </div>
         )}
       </div>
